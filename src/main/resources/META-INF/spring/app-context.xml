@@ -12,5 +12,5 @@
 
 	<context:component-scan
 		base-package="pl.mturuk.task"></context:component-scan>
-
+	<bean id= "myService" class="pl.mturuk.task.TaskService" />
 </beans>
